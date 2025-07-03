@@ -2,7 +2,7 @@ name: Build Instagram Scraper App (macOS)
 
 on:
   push:
-    branches: [ main ]  # Triggers when you push to main branch
+    branches: [ main ]  # Triggers when you push to the main branch
 
 jobs:
   build-macos:
@@ -32,7 +32,7 @@ jobs:
             -ov -format UDZO InstagramScraper.dmg
 
       - name: Upload .dmg as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: InstagramScraper
           path: InstagramScraper.dmg
