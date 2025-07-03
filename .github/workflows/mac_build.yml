@@ -28,7 +28,7 @@ jobs:
       - name: Create .dmg
         run: |
           hdiutil create -volname InstagramScraper \
-            -srcfolder dist/Instagram\ Scraper.app \
+            -srcfolder "dist/InstagramScraper.app" \
             -ov -format UDZO InstagramScraper.dmg
 
       - name: Upload .dmg as artifact
