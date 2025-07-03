@@ -5,7 +5,7 @@ DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
     'packages': ['selenium', 'getpass', 're', 'csv', 'time', 'random', 'platform'],
-    'iconfile': 'icon.icns',  # optional
+    # 'iconfile': 'icon.icns', 
 }
 
 setup(
