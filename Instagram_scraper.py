@@ -310,4 +310,4 @@ if __name__ == "__main__":
     try:
         main()
     finally:
-        driver.quit()
+        driver.quit()
