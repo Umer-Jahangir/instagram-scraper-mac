@@ -1,6 +1,6 @@
 from setuptools import setup
 
-APP = ['instagram_scraper.py']
+APP = ['Instagram_scraper.py']
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
